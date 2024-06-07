@@ -1,0 +1,88 @@
+html{
+    font-family: "Roboto", sans-serif;
+}
+
+.sidebar-nav{
+    height: 100%;
+    width: 180px;
+    background-color: #131313;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding-top: 20px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.iconos{
+    display: flex;
+    flex-direction: column;
+    position: relative ;
+    top: 40px;
+}
+
+.sidebar-nav i{
+    margin: 5px 30px;
+    padding: 5px;
+    width: 20px;
+    height: 20px;
+    color: black;
+    background-color: white;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.sidebar-nav h2{
+    color: white;
+}
+
+.sidebar-nav p{
+    color: white;
+    padding-left: 30px;
+    padding-bottom: 30px;
+    font-size: 11px;
+    text-align: left;
+}
+
+.sidebar-nav h2{
+    padding: 10px 30px;
+    font-size: 25px;
+}
+
+.contenedor-main{
+    margin-left: 180px;
+    padding: 0 10px;
+}
+
+.navs{
+    display: flex;
+    flex-direction: column;
+    /* VER ACA EL FLEX HACE QUE EL CONTENEDOR DE CADA "a" SE VAYA AL MANGO DEL NAVS, ENTONCES POR ESO LA LINEA SE VA AL FONDO */
+}
+
+.navs a{
+    color: white;
+    padding: 0 0 10px 30px;
+    text-decoration: none;
+    font-size: 14px;
+    display: block;
+    position: relative;
+    white-space: nowrap;
+}
+
+.navs a::after{
+    content: '';
+    position: absolute;
+    height: 2px;    
+    left: 25px;
+    background-color: rgb(255, 164, 29);
+    width: 0;
+    transition: all 0.3s ease-in-out;
+    transform: translateY(350%);
+}
+
+.navs a:hover::after{
+    width: 100%;
+}
