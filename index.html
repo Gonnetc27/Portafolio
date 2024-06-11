@@ -7,6 +7,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Shavian&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
     <title>Portafolio</title>
 </head>
@@ -34,97 +37,157 @@
         <!--barra navegaodra-->
 
         <!--section hero-->
-        <section class="hero">
-            <div class="presentacion">
-                <h1>MI NOMBRE ES GONZALO ETCHEPARE...</h1>
-                <h4>FullStack Developer de Argentina</h4>
-            </div>
-            <div class="talk">
-                <h5>Comunicate conmigo</h5>
-            </div>
-            <div class="contacto">
-                <div class="tel">
-                    <i class="bi bi-telephone"></i>
-                    <h5>+2657679138</h5>
+        <section class="contenedor-hero">
+            <section class="hero">
+                <div class="presentacion">
+                    <div class="minombre">
+                        <h1>MI NOMBRE ES <span style="font-weight: bold;">GONZALO ETCHEPARE...</span></h1>
+                        <div class="semicirculo"></div>
+                    </div>
+                    
+                    <h4><span style="font-weight: bold;font-style: Italic;">FullStack Developer</span> de <span style="font-weight: bold; font-style: Italic;">Argentina</span></h4>
                 </div>
-                <div class="mail">
-                    <i class="bi bi-envelope"></i>
-                    <h5>gonzalo_etchepare@hotmail.com</h5>
+                <div class="talk">
+                    <h5>Comunicate conmigo</h5>
+                    <div class="flecha">
+                        <i class="bi bi-arrow-up-right"></i>
+                    </div>
                 </div>
-            </div>
+                <div class="contacto">
+                    <div class="tel">
+                        <div class="i-contact">
+                            <i class="bi bi-telephone"></i>
+                        </div>
+                        <h5>+2657679138</h5>
+                    </div>
+                    <div class="mail">
+                        <div class="i-contact">
+                            <i class="bi bi-envelope"></i>
+                        </div>
+                        <h5>gonzalo_etchepare@hotmail.com</h5>
+                    </div>
+                </div>
+            </section>
+            <section class="imagen">
+                <img src="img/WhatsApp_Image_2024-06-10_at_19.01.35-removebg.png" alt="imagen-perfil" class="imagen-perfil">
+            </section>
         </section>
         <!--section hero-->
 
 
         <!--section About-->
         <section class="About">
-            <h5>Un gusto conocerte!</h5>
-            <h3>Bienvenidos a...</h3>
+            <section class="bienve">
+                <h2>BIENVENIDOS A...</h2>
+                <h5>Un gusto conocerte!</h5>
+            </section>
             <section class="about-head">
-                <div class="welcome-to">
+                <div class="head-yo">                     
                     <h2>Bienvenidos a...</h2>
+                    <div class="img-circulo">
+                        <img src="img/WhatsApp_Image_2024-06-10_at_19.01.35-removebg (1).png" alt="imagen-mia" class="imagenmascirculo">
+                        <div class="circulo"></div>
+                        <div class="puntos"></div>
+                    </div>
                     <div class="yo">
-                        <h3>GONZALO ETCHEPARE</h3>
-                        <h5>FullStack Developer de Argentina</h5>
+                        <h3 class="texto-color">GONZALO ETCHEPARE</h3>
+                        <h5><span class="negrita-cursiva">FullStack Developer</span> de <span class="negrita-cursiva">Argentina</span></h5>
                         <div class="descargarCV">
                             <a href="">Descargar CV</a>
-                            <i class="bi bi-arrow-up-right"></i>
+                            <div class="flecha">
+                                <i class="bi bi-arrow-up-right"></i>
+                            </div>
                         </div>
                     </div>
-                </div>
-
-                <div class="data">
-                    <div class="informacion">
-                        <div class="tel">
-                            <i class="bi bi-telephone"></i>
+                </div>     
+                <div class="head-data">
+                    <div class="data-informacion">
+                        <div class="contenedor-data">
+                            <div class="i-contact">
+                                <i class="bi bi-telephone"></i>
+                            </div>
                             <h5>+2657679138</h5>
                         </div>
-                        <div class="años">
-                            <i class="bi bi-person-square"></i>
+                        <div class="contenedor-data">
+                            <div class="i-contact">
+                                <i class="bi bi-person-square"></i>
+                            </div>
                             <h5>23 años</h5>
                         </div>
-                        <div class="mail">
-                            <i class="bi bi-envelope"></i>
+                        <div class="contenedor-data">
+                            <div class="i-contact">
+                                <i class="bi bi-envelope"></i>
+                            </div>
                             <h5>gonzalo_etchepare@hotmail.com</h5>
                         </div>
-                        <div class="ubicacion">
-                            <i class="bi bi-geo-alt"></i>
+                        <div class="contenedor-data">
+                            <div class="i-contact">
+                                <i class="bi bi-geo-alt"></i>
+                            </div>
                             <h5>Cordoba, Argentina</h5>
+
                         </div>
                     </div>
-
-                    <div class="exp">
-                        <div class="exp-años">
-                            <div>
-                                <h4>00+</h4>
-                                <p>Años de experiencia</p>
+                    <hr>
+                    <div class="data-exp">
+                        <div class="contenedor-exp">
+                            <div class="subcontenedor-exp">
+                                <h3 class="texto-color">00+</h3>
+                                <h5 class="negrita-cursiva">Años de experiencia</h5>
                             </div>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae placeat cum corporis labore aut error vitae. Dolor, odit animi. Sequi, quia amet perspiciatis excepturi placeat quam. Amet debitis nobis laudantium.</p>
+                            <p>Hola a todos! mi nombre es <span class="texto-color">Gonzalo Etchepare</span>.
+                            soy un web designer y App designer muy apasionado y dedicado a mi trabajo</p>
                         </div>
-                        <div class="exp-clientes">
-                            <div>
-                                <h4>00</h4>
-                                <p>Clientes en todo el mundo</p>
+                        <div class="contenedor-exp">
+                            <div class="subcontenedor-exp">
+                                <h3 class="texto-color">00</h3>
+                                <h5 class="negrita-cursiva">Clientes en todo el mundo</h5>
                             </div>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae placeat cum corporis labore aut error vitae. Dolor, odit animi. Sequi, quia amet perspiciatis excepturi placeat quam. Amet debitis nobis laudantium.</p>
+                            <p>con 0+ años de experiencia como profesional UI/UX designer, e adquirido las habilidades y el conocimiento necesario para hacer de tu proyecto un exito.</p>
                         </div>
                         <div class="frase">
                             <i class="bi bi-quote"></i>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur vel porro necessitatibus quis accusamus reiciendis aut deleniti at, explicabo magnam deserunt inventore, nam, sint placeat minima voluptatum architecto? Necessitatibus, consequatur.</p>
+                            <p>"Simpleza, claridad y estilo: los pilares de un buen diseño UI/UX"</p>
                         </div>
                     </div>
                 </div>
             </section>
             <section class="about-foot">
-                <div class="exp">
-                    <h6>Experiencia</h6>
+                <section class="exp">
+                    <h5>Experiencia</h5>
                     <h3>MI EXPERIENCIA</h3>
-                    <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus aliquam soluta ducimus debitis quibusdam optio accusantium! Iste libero voluptatibus quidem reiciendis ipsum, id vel aliquam, soluta, suscipit quasi architecto numquam!</P>
-                    <div class="resume">
+                    <P>Hola a todos! mi nombre es Gonzalo Etchepare. <br>
+                    Soy un web designer y App designer muy apasionado y dedicado a mi trabajo.</P>
+                    <div class="resumen">
                         <p>Descargar mi resumen</p>
-                        <i class="bi bi-arrow-up-right"></i>
+                        <div class="flecha">
+                            <i class="bi bi-arrow-up-right"></i>
+                        </div>
                     </div>
-                </div>
+                </section>
+                <section class="experiencias">
+                    <div class="contenedor-exp">
+                        <div class="encabezado">
+                            <h5>-2021 - Present</h5>
+                            <h5>Unconnect</h5>
+                        </div>
+                        <h2>LEAD UI/UX DESIGNER</h2>
+                    </div>
+                    <div class="contenedor-exp">
+                        <div class="encabezado">
+                            <h5>-2018 - 2021</h5>
+                            <h5>Desing area</h5>
+                        </div>
+                        <h2>SENIOR UI/UX DESIGNER</h2>
+                    </div>
+                    <div class="contenedor-exp">
+                        <div class="encabezado">
+                            <h5>-2017 - 2018</h5>
+                            <h5>STP</h5>
+                        </div>
+                        <h2>JUNIOR UI/UX DESIGNER</h2>
+                    </div>
+                </section>
             </section>
         </section>
         <!--section About-->
