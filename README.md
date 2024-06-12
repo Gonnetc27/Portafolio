@@ -1,4 +1,4 @@
-![image](![image](https://github.com/Gonnetc27/Portafolio/assets/105451844/f20b6617-58f0-4e84-9c93-38b533c43363))# Portafolio
+![image](https://github.com/Gonnetc27/Portafolio/assets/105451844/6647e279-36f8-48cc-814d-3903f027f413)
 
 ## Descripción
 
@@ -10,7 +10,7 @@ Para el desarrollo del trabajo practico el primer paso es elegir un portafolio e
 
 ##
 
-El portafolio que elegi es el siguiente:
+El portafolio que elegi se puede ver con detalle en el siguiente link:
 
 https://www.behance.net/gallery/173554871/Personal-Portfolio-Web-Template?tracking_source=search_projects|portfolio+personal&l=148
 
