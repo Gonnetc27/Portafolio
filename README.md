@@ -1,4 +1,4 @@
-![image](https://github.com/Gonnetc27/Portafolio/assets/105451844/3b8a1b9a-86f0-4c60-af58-3ace1f7b83cd)# Portafolio
+![image](![image](https://github.com/Gonnetc27/Portafolio/assets/105451844/f20b6617-58f0-4e84-9c93-38b533c43363))# Portafolio
 
 ## Descripción
 
