@@ -18,15 +18,15 @@ https://www.behance.net/gallery/173554871/Personal-Portfolio-Web-Template?tracki
 
 Ya elegido este, usare los conocimientos adquiridos hasta ahora en el curso para crear una estructura cono HTML, y darle un estilo a esta considerando que este tiene que ser responsive para las siguientes medidas:
 
-320px
-480px
-768px
-1024px
-1280px
-1440px
-1920px
+320px/
+480px/
+768px/
+1024px/
+1280px/
+1440px/
+1920px/
 
-##Conclusion
+##  Conclusion
 El trabajo sirvio mucho tanto para la practica como la adquisicion de conocimiento respecto de lo tratado, ya que ademas de utilizar lo aprendido en clase tambien investigue por mi cuenta.
 El resultado es este portafolio el cual no puedo llenar por completo, pero espero a futuro poderlo completar y hasta añadir mas contenido.
 
